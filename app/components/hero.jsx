@@ -7,9 +7,9 @@ const Hero = () => {
     <div className="hero-container">
       <Image src='/images/Nico.jpg' className="profile-img" width={300} height={300} alt="Joe's personal headshot" />
       <div className="hero-text">
-        <h1>Bonjour, je m'appelle Nicolas Lazarte 👋</h1>
+        <h1>Bonjour, je suis Nicolas Lazarte 👋</h1>
         <p>
-        Étudiant en Programmation au Collège de Rosemont, je suis toujours à la recherche d'apprendre des nouvelles technologies.
+        Étudiant en Programmation au Collège de Rosemont, je suis toujours à la recherche de pouvoir apprendre des nouvelles technologies.
         </p>
         <div className="social-icons">
           <a

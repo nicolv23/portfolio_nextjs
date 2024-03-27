@@ -1,14 +1,32 @@
-import React from 'react';
-import Layout from './layout';
+// pages/index.js
 
-// Définissez votre composant de page
-export default function Home() {
+import Hero from './components/hero';
+import Apropos from './components/apropos';
+import Competences from './components/competences';
+import Projets from './components/projets';
+import Contact from './components/contact';
+
+import Head from 'next/head';
+import React from 'react';
+
+const Home = () => {
   return (
-    // Utilisez la mise en page racine pour envelopper votre contenu de page
-    <Layout>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        {/* Votre contenu de page ici */}
-      </main>
-    </Layout>
+    <>
+      <Head>
+        <title>Portfolio de Nicolas</title>
+        <meta name="description" content="Portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div>
+        <Hero />
+        <Apropos />
+        <Competences />
+        <Projets />
+        <Contact />
+      </div>
+    </>
   );
-}
+};
+
+export default Home;
