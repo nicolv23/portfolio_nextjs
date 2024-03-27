@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from './layout';
 
 // Définissez votre composant de page
